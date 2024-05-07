@@ -1,0 +1,48 @@
+#fondo{ 
+    background-image:linear-gradient(to left,  rgb(29, 205, 96), rgb(255, 255, 255)); 
+    background-size: auto;
+    padding: 70px 100px 70px 100px;
+}
+
+.titulo {
+    text-align: center;
+}
+.contenedortabla {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla th, .tabla td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.tabla th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+.tabla tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabla tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+.telefonos01 img{
+    width: 50px;
+    height: auto;
+    }
+
+.origen01 img{
+    width: 50px;
+    height: auto;
+    }
